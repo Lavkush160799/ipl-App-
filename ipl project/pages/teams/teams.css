@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.player-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+#team-details{
+    margin: 1rem 0rem 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 2px 2px 5px grey;
+    display: grid;
+    border-radius: 10px;
+}
+.player-price{
+    display: flex;
+    justify-content: space-between;
+}
+.name-teams{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+.player-price{
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+.team-logo{
+    border: 1px solid blueviolet;
+    background-color: aliceblue;
+}
+
+.logo{
+    height:150px;
+}
+#team-details table tr{
+    color: black;
+}
+#team-details table tr:hover{
+    color: white;
+    background-color: #FF4742 !important;
+}
+#team-details table tbody tr:nth-child(1){
+    background-color: transparent !important;
+}
